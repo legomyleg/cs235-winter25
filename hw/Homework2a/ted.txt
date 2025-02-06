@@ -1,0 +1,6 @@
+apples
+oranges
+happiness
+apples
+trees
+happiness
