@@ -6,13 +6,25 @@ class Stack {
     vector<T> _data;
 
     public:
-    Stack() { }
+    Stack() {}
 
-    void push(T const& item) { }
+    void push(T const& item) 
+    {
+        _data.push_back(item);
+    }
 
-    void pop() { }
+    void pop() 
+    { 
+        _data.pop_back();
+    }
 
-    T top() { return T(); }
+    T top() 
+    { 
+        return _data[_data.size()-1];
+    }
 
-    size_t size() { return 0; }
+    size_t size() 
+    { 
+        return _data.size(); 
+    }
 };
